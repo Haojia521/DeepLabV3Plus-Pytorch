@@ -10,7 +10,7 @@ __all__ = ['HRNet', 'hrnetv2_48', 'hrnetv2_32']
 # weights to the folder /checkpoints
 try:
     CKPT_PATH = './checkpoints/hrnetv2_32_model_best_epoch96.pth'
-    print(f"Backbone HRNet Pretrained weights at: {CKPT_PATH}, only usable for HRNetv2-32")
+    # print(f"Backbone HRNet Pretrained weights at: {CKPT_PATH}, only usable for HRNetv2-32")
 except:
     print("No backbone checkpoint found for HRNetv2, please set pretrained=False when calling model")
 
